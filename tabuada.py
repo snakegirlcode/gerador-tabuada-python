@@ -9,6 +9,7 @@ while True:
             print(f'{numero} x {i} = {numero * i}')
         opcao = input('Digite S para sair ou C para continuar: ').upper()
         if opcao[0] == 'S':
+            print('Programa encerrado. Até a próxima!')
             break
         else:
             continue
