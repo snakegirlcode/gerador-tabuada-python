@@ -1,26 +1,38 @@
-# Gerador de Tabuada em Python
+# 🧮 Gerador de Tabuada em Python
 
-Este projeto simples gera a tabuada de um número escolhido pelo usuário. Foi criado como parte do meu portfólio de prática em Python.
+Este projeto foi desenvolvido como prática de lógica de programação em Python. O programa solicita ao usuário um número, exibe sua tabuada de 1 a 10 e permite repetir o processo ou encerrar, de forma interativa e segura.
 
-## Como funciona
+---
 
-- O usuário digita um número
-- O programa exibe a tabuada de 1 a 10
-- Para encerrar, basta digitar `sair`
+## 💡 Funcionalidades
 
-## Tecnologias utilizadas
+- Entrada de número com tratamento de erro (`try/except`)
+- Geração da tabuada de 1 a 10 usando laço `for`
+- Loop de repetição com opção de **sair ou continuar**
+- Feedback amigável no terminal
+
+---
+
+## 🛠 Tecnologias utilizadas
 
 - Python 3
-- Entrada e saída no terminal
-- Estruturas de repetição
-- Tratamento de erros com `try/except`
+- Terminal (linha de comando)
+- Lógica de Programação
+- `try/except`, `while`, `for`, `f-strings`
 
-## Como executar
+---
 
-1. Tenha o Python instalado em seu computador
-2. Salve o arquivo `tabuada.py`
-3. No terminal, execute:
+## ✅ Exemplo de execução
+
+![Exemplo da execução no terminal](execucao-tabuada.png)
+
+
+---
+
+## 🚀 Como executar o projeto
+
+1. Clone este repositório ou baixe o arquivo `tabuada.py`
+2. Execute o script no terminal:
 
 ```bash
 python tabuada.py
-
